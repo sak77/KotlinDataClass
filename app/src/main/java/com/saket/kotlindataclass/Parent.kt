@@ -5,5 +5,5 @@ package com.saket.kotlindataclass
  * default values for all properties have to be specified.
  */
 data class Parent(val sirName: String = "Default", val age: Int = 30) {
-    val name = String
+    var name = ""   //In Kotlin it is important to initialize the variable. Or you have to use lateinit or lazy.
 }
